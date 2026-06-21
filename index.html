@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Al-Barakah | South Indian Non-Veg Specialty Restaurant</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">Al-Barakah<span>South Indian Non-Veg Specialty</span></div>
+  <nav>
+    <ul id="navMenu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <button class="menu-toggle" id="menuToggle">☰</button>
+</header>
+
+<section class="hero" id="home">
+  <div class="hero-content">
+    <p class="tagline">Since 1998 — Madurai's Non-Veg Specialty House</p>
+    <h1>Royal <em>South Indian</em> Non-Veg</h1>
+    <p class="sub">Spicy Chettinad chicken, slow-cooked mutton curries, fresh seafood and biryani — bold flavours rooted in Tamil Nadu tradition.</p>
+    <a href="#menu" class="btn">View Menu</a>
+    <a href="#contact" class="btn btn-outline">Reserve Table</a>
+  </div>
+  <div class="scroll-down">↓</div>
+</section>
+
+<section class="about" id="about">
+  <div class="about-img">
+    <img src="images/about.jpg" alt="South Indian non-veg thali">
+  </div>
+  <div class="about-text">
+    <p class="kicker" style="color:var(--emerald);letter-spacing:3px;font-size:0.85rem;text-transform:uppercase;margin-bottom:10px;font-weight:600;">Our Story</p>
+    <h2>Tradition Served with Honour</h2>
+    <p>Al-Barakah — meaning "the blessing" — began as a humble family kitchen and has grown into a destination for bold South Indian non-veg cooking. Every dish carries recipes passed down through generations of Tamil Nadu kitchens.</p>
+    <p>From slow-cooked Chettinad mutton to fresh coastal seafood and biryani, we honour tradition with fresh ingredients, fiery spices, and generous hospitality.</p>
+    <div class="about-stats">
+      <div class="stat"><h3>25+</h3><p>YEARS OF HERITAGE</p></div>
+      <div class="stat"><h3>50+</h3><p>SIGNATURE DISHES</p></div>
+      <div class="stat"><h3>15K+</h3><p>HAPPY GUESTS</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="menu" id="menu">
+  <div class="section-title">
+    <p class="kicker">What We Serve</p>
+    <h2>Our Menu</h2>
+    <div class="underline"></div>
+  </div>
+  <div class="menu-tabs">
+    <button class="menu-tab active" data-tab="starters">Starters</button>
+    <button class="menu-tab" data-tab="mains">Curries & Gravies</button>
+    <button class="menu-tab" data-tab="rice">Biryani & Rice</button>
+    <button class="menu-tab" data-tab="drinks">Beverages</button>
+  </div>
+
+  <div class="menu-section active" id="starters">
+    <div class="menu-item">
+      <div class="menu-item-info"><h4>Chicken 65</h4><p>Spicy deep-fried chicken bites tossed in curry leaves and red chillies</p></div>
+      <div class="menu-item-price">₹220</div>
+    </div>
+    <div class="menu-item">
+      <div class="menu-item-info"><h4>Mutton Sukka</h4><p>Dry-roasted mutton pieces cooked with coconut, pepper and curry leaves</p></div>
+      <div class="menu-item-price">₹280</div>
+    </div>
+    <div class="menu-item">
+      <div class="menu-item-info"><h4>Fish Fry (Vanjaram)</h4><p>Seer fish marinated in spices and shallow fried to a crisp</p></div>
+      <div class="menu-item-price">₹260</div>
+    </div>
+    <div class="menu-item">
+      <div class="menu-item-info"><h4>Prawn Pepper Roast</h4><p>Fresh prawns tossed in crushed pepper, garlic and curry leaves</p></div>
+      <div class="menu-item-price">₹300</div>
+    </div>
+  </div>
+
+  <div class="menu-section" id="mains">
+    <div class="menu-item">
+      <div class="menu-item-info"><h4>Chettinad Chicken Curry</h4><p>Fiery chicken curry cooked in Chettinad spices and roasted coconut</p></div>
+      <div class="menu-item-price">₹320</div>
+    </div>
+    <div class="menu-item">
+      <div class="menu-item-info"><h4>Mutton Kuzhambu</h4><p>Slow-cooked mutton curry in a tangy, spice-rich tamarind gravy</p></div>
+      <div class="menu-item-price">₹380</div>
+    </div>
+    <div class="menu-item">
+      <div class="menu-item-info"><h4>Nattu Kozhi Curry</h4><p>Country chicken simmered in onion-tomato masala, a Tamil Nadu classic</p></div>
+      <div class="menu-item-price">₹350</div>
+    </div>
+    <div class="menu-item">
+      <div class="menu-item-info"><h4>Meen Kuzhambu</h4><p>Tamarind-based fish curry cooked with traditional South Indian spices</p></div>
+      <div class="menu-item-price">₹300</div>
+    </div>
+  </div>
+
+  <div class="menu-section" id="rice">
+    <div class="menu-item">
+      <div class="menu-item-info"><h4>Mutton Biryani</h4><p>Fragrant seeraga samba rice layered with slow-cooked mutton</p></div>
+      <div class="menu-item-price">₹350</div>
+    </div>
+    <div class="menu-item">
+      <div class="menu-item-info"><h4>Chicken Biryani</h4><p>Aromatic dum-cooked rice with marinated chicken and fried onions</p></div>
+      <div class="menu-item-price">₹280</div>
+    </div>
+    <div class="menu-item">
+      <div class="menu-item-info"><h4>Egg Biryani</h4><p>Spiced biryani rice topped with boiled eggs and crispy onions</p></div>
+      <div class="menu-item-price">₹220</div>
+    </div>
+  </div>
+
+  <div class="menu-section" id="drinks">
+    <div class="menu-item">
+      <div class="menu-item-info"><h4>Filter Coffee</h4><p>Strong South Indian coffee brewed in a traditional filter</p></div>
+      <div class="menu-item-price">₹45</div>
+    </div>
+    <div class="menu-item">
+      <div class="menu-item-info"><h4>Buttermilk</h4><p>Spiced chilled yogurt drink with curry leaves and ginger</p></div>
+      <div class="menu-item-price">₹40</div>
+    </div>
+    <div class="menu-item">
+      <div class="menu-item-info"><h4>Tender Coconut</h4><p>Fresh, naturally sweet coconut water served chilled</p></div>
+      <div class="menu-item-price">₹50</div>
+    </div>
+  </div>
+</section>
+
+<section class="gallery" id="gallery">
+  <div class="section-title">
+    <p class="kicker" style="color:var(--emerald);">A Taste of Tradition</p>
+    <h2>Gallery</h2>
+    <div class="underline"></div>
+  </div>
+  <div class="gallery-grid">
+    <div><img src="images/gallery-1.jpg" alt="South Indian non-veg platter"></div>
+    <div><img src="images/gallery-2.jpg" alt="Chicken biryani"></div>
+    <div><img src="images/gallery-3.jpg" alt="Restaurant interior"></div>
+    <div><img src="images/gallery-4.jpg" alt="Mutton curry"></div>
+    <div><img src="images/gallery-5.jpg" alt="Filter coffee"></div>
+    <div><img src="images/gallery-6.jpg" alt="Spices and herbs"></div>
+  </div>
+</section>
+
+<section class="testimonials">
+  <div class="section-title">
+    <p class="kicker" style="color:var(--emerald);">Guest Love</p>
+    <h2>What People Say</h2>
+    <div class="underline"></div>
+  </div>
+  <div class="testi-grid">
+    <div class="testi-card">
+      <div class="stars">★★★★★</div>
+      <p class="quote">"The Chettinad chicken curry was outstanding and the filter coffee tasted exactly like home. Truly authentic."</p>
+      <h4>Yusuf A.</h4>
+      <span>Food Enthusiast</span>
+    </div>
+    <div class="testi-card">
+      <div class="stars">★★★★★</div>
+      <p class="quote">"Beautiful ambience and the mutton kuzhambu was rich, comforting, and full of flavour. Will definitely be back."</p>
+      <h4>Layla M.</h4>
+      <span>Regular Guest</span>
+    </div>
+    <div class="testi-card">
+      <div class="stars">★★★★★</div>
+      <p class="quote">"Generous portions, warm hospitality, and the mutton biryani is the best I've had in the city."</p>
+      <h4>Omar S.</h4>
+      <span>Local Guide</span>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <h2>Craving Bold Non-Veg Flavours?</h2>
+  <p>Reserve your table now and experience true South Indian non-veg specialties at Al-Barakah.</p>
+  <a href="#contact" class="btn">Book a Table</a>
+</section>
+
+<section class="contact" id="contact">
+  <div class="contact-info">
+    <p class="kicker" style="color:var(--emerald);letter-spacing:3px;font-size:0.85rem;text-transform:uppercase;margin-bottom:10px;font-weight:600;">Get In Touch</p>
+    <h2>Visit Us Today</h2>
+    <p>Whether it's a family lunch or a quiet evening dinner, we're happy to serve you authentic South Indian non-veg specialties.</p>
+    <div class="contact-detail">
+      <div class="icon">📍</div>
+      <div><h4>Address</h4><p>22, Al-Noor Street, Anna Nagar, Chennai - 600040</p></div>
+    </div>
+    <div class="contact-detail">
+      <div class="icon">📞</div>
+      <div><h4>Phone</h4><p>+91 98765 43210</p></div>
+    </div>
+    <div class="contact-detail">
+      <div class="icon">🕒</div>
+      <div><h4>Hours</h4><p>Mon - Sun: 12:00 PM – 11:30 PM</p></div>
+    </div>
+    <div class="map-frame">
+      <iframe src="https://maps.google.com/maps?q=Anna%20Nagar%20Chennai&t=&z=13&ie=UTF8&iwloc=&output=embed" loading="lazy"></iframe>
+    </div>
+  </div>
+  <div class="contact-form">
+    <h2 style="color:var(--emerald-dark);margin-bottom:20px;">Book a Table</h2>
+    <form id="reservationForm">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Email Address" required>
+      <input type="tel" name="phone" placeholder="Phone Number" required>
+      <input type="text" name="datetime" placeholder="Date & Time" onfocus="this.type='datetime-local'" required>
+      <textarea name="notes" rows="4" placeholder="Special Requests (optional)"></textarea>
+      <button type="submit">Confirm Reservation</button>
+      <p class="form-status" id="formStatus"></p>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-grid">
+    <div>
+      <h3>Al-Barakah</h3>
+      <p>Serving authentic South Indian non-veg specialties with warmth and tradition since 1998. Halal certified kitchen.</p>
+      <div class="social-icons">
+        <a href="#">f</a>
+        <a href="#">ig</a>
+        <a href="#">tw</a>
+      </div>
+    </div>
+    <div>
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Opening Hours</h3>
+      <p>Monday - Sunday<br>12:00 PM – 11:30 PM</p>
+      <p style="margin-top:10px;">Last order: 11:00 PM</p>
+    </div>
+    <div>
+      <h3>Contact</h3>
+      <p>22, Al-Noor Street, Anna Nagar<br>Chennai - 600040</p>
+      <p style="margin-top:10px;">+91 98765 43210<br>hello@albarakah.com</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    &copy; 2026 Al-Barakah Restaurant. All rights reserved. | Designed & Developed by Roshna
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

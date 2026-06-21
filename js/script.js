@@ -45,7 +45,7 @@ if (reservationForm) {
     statusEl.textContent = '';
 
     try {
-      const res = await fetch('http://localhost:5000/api/reserve', {
+      const res = await fetch('https://al-barakah.onrender.com/api/reserve', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(data)

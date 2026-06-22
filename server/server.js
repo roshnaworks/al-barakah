@@ -12,11 +12,11 @@ app.use(express.json());
 // Nodemailer transporter using Gmail App Password
 const transporter = nodemailer.createTransport({
   host:'smtp.gmail.com',
-  port:465,
-  secure:true,
+  port: 587,
+  secure: false,
   auth: {
-    user: process.env.GMAIL_USER,     // your gmail address
-    pass: process.env.GMAIL_APP_PASS  // 16-character Gmail App Password
+    user: process.env.EMAIL_USER,     // your gmail address
+    pass: process.env.EMAIL_PASS  // 16-character Gmail App Password
   },
   connectionTimeout:10000
 });

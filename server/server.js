@@ -15,8 +15,8 @@ const transporter = nodemailer.createTransport({
   port: 587,
   secure: false,
   auth: {
-    user: process.env.EMAIL_USER,     // your gmail address
-    pass: process.env.EMAIL_PASS  // 16-character Gmail App Password
+    user: process.env.EMAIL_USER,
+    pass: process.env.EMAIL_PASS
   },
   connectionTimeout:10000
 });
@@ -30,7 +30,7 @@ app.post('/api/reserve', async (req, res) => {
 
   const mailOptions = {
     from: process.env.EMAIL_USER,
-    to: process.env.roshna0435@gmail.com || process.env.EMAIL_USER,
+   to: process.env.RESTAURANT_EMAIL || process.env.EMAIL_USER,
     subject: `New Table Reservation - ${name}`,
     html: `
       <h2>New Reservation Request — Al-Barakah</h2>

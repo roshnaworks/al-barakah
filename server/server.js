@@ -29,8 +29,8 @@ app.post('/api/reserve', async (req, res) => {
   }
 
   const mailOptions = {
-    from: process.env.GMAIL_USER,
-    to: process.env.RESTAURANT_EMAIL || process.env.GMAIL_USER,
+    from: process.env.EMAIL_USER,
+    to: process.env.roshna0435@gmail.com || process.env.EMAIL_USER,
     subject: `New Table Reservation - ${name}`,
     html: `
       <h2>New Reservation Request — Al-Barakah</h2>

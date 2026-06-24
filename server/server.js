@@ -20,7 +20,7 @@ app.post('/api/reserve', async (req, res) => {
     await resend.emails.send({
       from: 'onboarding@resend.dev',
       to: process.env.EMAIL_USER,
-      subject: New Table Reservation - ${name},
+      subject:` New Table Reservation - ${name}`,
       html: `
         <h2>New Reservation Request – Al-Barakah</h2>
         <p><strong>Name:</strong> ${name}</p>
